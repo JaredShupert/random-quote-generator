@@ -96,4 +96,5 @@ setInterval(setBg, 10000);
  * click event listener for the print quote button
 ***/
 
-// document.getElementById('load-quote').addEventListener("click", printQuote, false);
+document.getElementById('load-quote').addEventListener("click", printQuote, false);
+document.getElementById('load-quote').addEventListener("click", setBg, false);
